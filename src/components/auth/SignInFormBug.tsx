@@ -152,7 +152,7 @@ export default function SignInFormBug() {
                 </div>
                 {message && <div className="text-sm text-center text-red-600">{message}</div>}
                 <div>
-                  <button disabled type="submit" className="w-full px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600 cursor-not-allowed opacity-70">
+                  <button type="submit" className="w-full px-4 py-3 text-sm font-medium text-white transition rounded-lg bg-brand-500 shadow-theme-xs hover:bg-brand-600">
                     Sign in
                   </button>
                 </div>
